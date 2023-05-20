@@ -1,0 +1,94 @@
+
+
+body{
+    background-image: 
+    radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,177,148,1) 100%),
+    url(/images/Background.png);
+    display: flex;
+ 
+    
+}
+
+.container{
+   display: flex;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
+
+.gradie{
+    background-color: #324752;
+    width: 350px;
+    height: 400px;
+}
+
+.phone{
+    width: 235px;
+    margin-left: 60px;
+    
+    
+
+
+}
+
+.login{
+background-color: white;
+width: 350px;
+height: 400px;
+
+}
+
+.seconds{
+    color: #949ebd;
+    text-align: center;
+}
+
+.login-text, .email, .password, .conditions, button{
+    margin-left: 50px;
+}
+
+.email-text, .password-text{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+span{
+    text-decoration: underline;
+    color: #265469;
+    font-weight: bold;
+}
+
+button{
+    background-color: #265469;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    height: 50px;
+}
+.password-box{
+   height: 40px;
+}
+button:hover{
+   cursor: pointer;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
